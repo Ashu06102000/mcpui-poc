@@ -1,0 +1,374 @@
+/* Standard Layout Utilities */
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.gap-2 {
+    gap: 0.5rem;
+}
+
+.gap-3 {
+    gap: 0.75rem;
+}
+
+.gap-4 {
+    gap: 1rem;
+}
+
+.gap-6 {
+    gap: 1.5rem;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+/* Sizing & Spacing */
+.w-full {
+    width: 100%;
+}
+
+.h-8 {
+    height: 2rem;
+}
+
+.h-10 {
+    height: 2.5rem;
+}
+
+.h-12 {
+    height: 3rem;
+}
+
+.p-3 {
+    padding: 0.75rem;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.p-6 {
+    padding: 1.5rem;
+}
+
+.px-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}
+
+
+.px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+
+.py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.pt-0 {
+    padding-top: 0;
+}
+
+.pt-4 {
+    padding-top: 1rem;
+}
+
+.pt-6 {
+    padding-top: 1.5rem;
+}
+
+.pb-3 {
+    padding-bottom: 0.75rem;
+}
+
+.mb-1 {
+    margin-bottom: 0.25rem;
+}
+
+
+/* Borders & Radius */
+.border {
+    border: 1px solid var(--ui-card-border);
+}
+
+.border-b {
+    border-bottom: 1px solid var(--ui-card-border);
+}
+
+.border-t {
+    border-top: 1px solid var(--ui-card-border);
+}
+
+.rounded-xl {
+    border-radius: var(--ui-radius-lg);
+}
+
+.rounded-lg {
+    border-radius: var(--ui-radius-md);
+}
+
+.rounded-md {
+    border-radius: var(--ui-radius-sm);
+}
+
+.rounded-full {
+    border-radius: 9999px;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+/* Colors & Backgrounds */
+.bg-zinc-900 {
+    background-color: #18181b;
+}
+
+.bg-zinc-900\/30 {
+    background-color: rgba(24, 24, 27, 0.3);
+}
+
+.bg-zinc-900\/20 {
+    background-color: rgba(24, 24, 27, 0.2);
+}
+
+.bg-zinc-800\/10 {
+    background-color: rgba(39, 39, 42, 0.1);
+}
+
+.bg-zinc-800\/20 {
+    background-color: rgba(39, 39, 42, 0.2);
+}
+
+.border-zinc-800 {
+    border-color: #27272a;
+}
+
+.border-zinc-800\/50 {
+    border-color: rgba(39, 39, 42, 0.5);
+}
+
+.border-zinc-800\/30 {
+    border-color: rgba(39, 39, 42, 0.3);
+}
+
+.bg-blue-600 {
+    background-color: #2563eb;
+}
+
+.bg-blue-600\/20 {
+    background-color: rgba(37, 99, 235, 0.2);
+}
+
+.text-blue-400 {
+    color: #60a5fa;
+}
+
+.border-blue-500\/30 {
+    border-color: rgba(59, 130, 246, 0.3);
+}
+
+/* Typography */
+.text-xs {
+    font-size: 0.75rem;
+}
+
+.text-sm {
+    font-size: 0.875rem;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.tracking-tight {
+    letter-spacing: -0.025em;
+}
+
+.tracking-wider {
+    letter-spacing: 0.05em;
+}
+
+.tracking-widest {
+    letter-spacing: 0.1em;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.tabular-nums {
+    font-variant-numeric: tabular-nums;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.text-zinc-100 {
+    color: #f4f4f5;
+}
+
+.text-zinc-300 {
+    color: #d4d4d8;
+}
+
+.text-zinc-400 {
+    color: #a1a1aa;
+}
+
+.text-zinc-500 {
+    color: #71717a;
+}
+
+/* Effects & Others */
+.backdrop-blur-xl {
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+}
+
+.backdrop-blur-lg {
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+}
+
+.shadow-sm {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.transition-all {
+    transition: all 0.2s;
+}
+
+.transition-colors {
+    transition-property: color, background-color, border-color;
+    transition-duration: 0.2s;
+}
+
+.opacity-90 {
+    opacity: 0.9;
+}
+
+input {
+    color: black !important;
+}
+
+/* Premium Styling Extensions */
+:root {
+    --ui-card-border: rgba(39, 39, 42, 0.5);
+    --ui-radius-lg: 0.75rem;
+    --ui-radius-md: 0.5rem;
+    --ui-radius-sm: 0.25rem;
+}
+
+.ui-glass {
+    background: rgba(20, 20, 23, 0.8) !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+}
+
+.ui-text-gradient {
+    background: linear-gradient(to right, #ffffff, #a1a1aa) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    display: inline-block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(4px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.ui-animate-fade-in {
+    animation: fadeIn 0.4s ease-out forwards;
+}
+
+/* Badge Colors (Used in DynamicRenderer.tsx) */
+.badge-success {
+    background-color: rgba(16, 185, 129, 0.2) !important;
+    color: #10b981 !important;
+}
+
+.badge-warning {
+    background-color: rgba(245, 158, 11, 0.2) !important;
+    color: #f59e0b !important;
+}
+
+.badge-danger {
+    background-color: rgba(239, 68, 68, 0.2) !important;
+    color: #ef4444 !important;
+}
+
+.badge-info {
+    background-color: rgba(59, 130, 246, 0.2) !important;
+    color: #3b82f6 !important;
+}
